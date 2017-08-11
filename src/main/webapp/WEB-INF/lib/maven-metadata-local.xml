@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springside</groupId>
+  <artifactId>springside-modules</artifactId>
+  <version>4.2.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20140724064715</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>4.2.3-SNAPSHOT</value>
+        <updated>20140724064715</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

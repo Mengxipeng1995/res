@@ -1,0 +1,16 @@
+table,tr{
+    font-weight: normal;
+    border: 1px #000 solid;
+
+}
+table td{
+    height: 100%;
+    min-height: 40px;
+    border-bottom:1px #000 solid;
+    border-right: 1px #000 solid;
+}
+
+table td span{
+    padding-left: 15px;
+    float: left;
+}

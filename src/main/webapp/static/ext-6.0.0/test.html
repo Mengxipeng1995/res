@@ -1,0 +1,54 @@
+<html>  
+    <head>  
+       
+        <title>hello Word</title>  
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+        
+        <!-- 引入ExtJs样式 -->  
+        <link rel="stylesheet" type="text/css" href="build/classic/theme-triton/resources/theme-triton-all.css">  
+        <!-- 引入ExtJs核心Js -->  
+       <!--  <script type="text/javascript" src="ext-bootstrap.js"></script>   -->
+        <script type="text/javascript" src="build/ext-all.js"></script>  
+        <script type="text/javascript" src="build/classic/locale/locale-zh_CN.js"></script>  
+       
+
+       <script type="text/javascript">
+           
+
+    
+        Ext.onReady(function(){
+            Ext.QuickTips.init();
+            Ext.create('Ext.data.Store', {
+    storeId: 'simpsonsStore',
+    fields:[ 'name', 'email', 'phone'],
+    data: [
+        { name: 'Lisa', email: 'lisa@simpsons.com', phone: '555-111-1224' },
+        { name: 'Bart', email: 'bart@simpsons.com', phone: '555-222-1234' },
+        { name: 'Homer', email: 'homer@simpsons.com', phone: '555-222-1244' },
+        { name: 'Marge', email: 'marge@simpsons.com', phone: '555-222-1254' }
+    ]
+});
+
+Ext.create('Ext.grid.Panel', {
+    
+    store: Ext.data.StoreManager.lookup('simpsonsStore'),
+     viewConfig:{enableTextSelection:true },
+    columns: [
+        { text: 'Name', dataIndex: 'name' },
+        { text: 'Email', dataIndex: 'email', flex: 1 },
+        { text: 'Phone', dataIndex: 'phone' }
+    ],
+    height: 200,
+    width: 400,
+    renderTo: Ext.getBody()
+});
+            
+            
+        });
+
+       </script>
+    </head>  
+    <body>  
+   
+    </body>  
+    </html>

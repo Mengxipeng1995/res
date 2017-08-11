@@ -1,0 +1,260 @@
+                            xtype: "textfield",
+                            fieldLabel: '版权登记号',
+                            name: 'copyrightNum'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '版权信息',
+                            name: 'copyrightInfo'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '版印次',
+                            name: 'printEdition'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '编辑推荐',
+                            name: 'editorialRecommendation'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '出版年月',
+                            name: 'publishYm'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '出版社',
+                            name: 'publish'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '出版国别',
+                            name: 'publisherCountry'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '丛书名',
+                            name: 'seriesName'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '定价',
+                            name: 'price'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '读者对象',
+                            name: 'readerObject'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '分类',
+                            name: 'category'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '分类号',
+                            name: 'categoryNum'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '分社',
+                            name: 'branch'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '广告语',
+                            name: 'advertising'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '后记',
+                            name: 'postscript'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '厚',
+                            name: 'thick'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '获奖情况',
+                            name: 'awardSituation'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '建议上架类别',
+                            name: 'recommendedShelfCategories'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '介子',
+                            name: 'medium'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '开本',
+                            name: 'folio'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '媒体评论',
+                            name: 'mediaReview'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '名人推荐',
+                            name: 'celebrityRecommendation'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '目录',
+                            name: 'catalog'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '内容简介',
+                            name: 'contentValidity'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '前言',
+                            name: 'preface'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '商品类型',
+                            name: 'commodityType'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '条码书号',
+                            name: 'barcode'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '图书尺寸',
+                            name: 'size'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '图书等级',
+                            name: 'level'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '图书品牌',
+                            name: 'brand'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '图书状态',
+                            name: 'status'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '序言',
+                            name: 'preface2'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '业务分类',
+                            name: 'serviceClassification'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '业务分类名称',
+                            name: 'serviceClassificationName'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '译者',
+                            name: 'translator'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '译者简介',
+                            name: 'translatorProfiles'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '译者序',
+                            name: 'translatorPreface'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '印章',
+                            name: 'sheet'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '营销分类',
+                            name: 'marketingClassification'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '用纸',
+                            name: 'paper'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '语种',
+                            name: 'languages'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '在线试读',
+                            name: 'readOnline'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '责任编辑',
+                            name: 'editorCharge'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '中图法分类',
+                            name: 'graphClassification'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '重量',
+                            name: 'weight'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '主题词',
+                            name: 'keywords'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '装帧',
+                            name: 'binding'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '字数',
+                            name: 'wordcount'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '作者',
+                            name: 'author'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '作者简介',
+                            name: 'authorBrief'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '作者序',
+                            name: 'authorPreface'
+                        }, {
+                            xtype: "textfield",
+                            fieldLabel: '关键词',
+                            name: 'keySentences'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '上架日期',
+                            name: 'shelvesDate'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '分类code',
+                            name: 'categoryCode'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '上架建议',
+                            name: 'shelfSuggestions'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '章节数',
+                            name: 'chapterCount'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '原书名',
+                            name: 'originalTitle'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '原出版社',
+                            name: 'original_publisher'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '有无CD',
+                            name: 'cdCount'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '有无磁盘',
+                            name: 'diskCount'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '有无磁带',
+                            name: 'magneticCount'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: 'makrk数据',
+                            name: 'markData'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '作者国籍',
+                            name: 'author_nationality'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '出版社推荐',
+                            name: 'pressRecommendation'
+                        },{
+                            xtype: "textfield",
+                            fieldLabel: '上传附件路径',
+                            name: 'filepath'
+                        },{
